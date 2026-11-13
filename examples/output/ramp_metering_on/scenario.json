@@ -1,0 +1,50 @@
+{
+  "demand": {
+    "intervals": [
+      {
+        "rate_veh_per_h": 2400,
+        "t_end": 1800,
+        "t_start": 0
+      }
+    ]
+  },
+  "description": "Same geometry and demand as ramp_metering_off, but with ALINEA ramp metering (Papageorgiou et al. 1991): the release rate adapts every 20 s to keep downstream density near the critical value of 25 veh/km/lane. Compare with ramp_metering_off.",
+  "detectors": [
+    2000
+  ],
+  "dt": 0.1,
+  "duration": 1800,
+  "name": "ramp_metering_on",
+  "on_ramps": [
+    {
+      "demand": {
+        "intervals": [
+          {
+            "rate_veh_per_h": 900,
+            "t_end": 1800,
+            "t_start": 0
+          }
+        ]
+      },
+      "label": "on-ramp at x=1500 m",
+      "merge_length": 200,
+      "x_merge": 1500
+    }
+  ],
+  "ramp_metering": {
+    "cycle": 20.0,
+    "enabled": true,
+    "gain": 70.0,
+    "initial_rate": 900.0,
+    "rate_max": 1800.0,
+    "rate_min": 240.0,
+    "target_density": 25.0
+  },
+  "road": {
+    "length_m": 3000,
+    "n_lanes": 3,
+    "speed_limit": 33.3
+  },
+  "sample_dt": 2.0,
+  "seed": 21
+}

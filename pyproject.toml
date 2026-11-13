@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "traffic-flow-simulator"
+version = "1.0.0"
+description = "Microscopic traffic flow simulator (IDM car-following + MOBIL lane changing) with congestion analysis, visualisation and reporting."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "matplotlib>=3.8", "PyYAML>=6.0"]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[project.scripts]
+traffic-flow = "traffic_flow.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["traffic_flow*"]

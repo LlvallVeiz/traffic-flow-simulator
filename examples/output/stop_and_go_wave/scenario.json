@@ -1,0 +1,35 @@
+{
+  "bottlenecks": [
+    {
+      "kind": "incident",
+      "label": "incident: full blockage 60 s at x=1500 m",
+      "t_end": 460,
+      "t_start": 400,
+      "x_end": 1520,
+      "x_start": 1500
+    }
+  ],
+  "demand": {
+    "intervals": [
+      {
+        "rate_veh_per_h": 3600,
+        "t_end": 1500,
+        "t_start": 0
+      }
+    ]
+  },
+  "description": "Two-lane freeway near capacity (3600 veh/h). A 60 s full blockage (incident) at x=1500 m during t=400-460 s triggers a stop-and-go wave that propagates backwards after the blockage clears, as in the Sugiyama et al. (2008) ring experiment.",
+  "detectors": [
+    1000
+  ],
+  "dt": 0.1,
+  "duration": 1500,
+  "name": "stop_and_go_wave",
+  "road": {
+    "length_m": 2500,
+    "n_lanes": 2,
+    "speed_limit": 33.3
+  },
+  "sample_dt": 2.0,
+  "seed": 11
+}

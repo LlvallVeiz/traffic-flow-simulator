@@ -1,0 +1,512 @@
+{
+  "a": {
+    "scenario": "ramp_metering_off",
+    "duration_s": 1800,
+    "seed": 21,
+    "runtime_s": 5.87,
+    "vehicles_entered": 1592,
+    "vehicles_completed": 1528,
+    "throughput_veh_per_h": 3056.0,
+    "mean_density_veh_per_km_per_lane": 10.91,
+    "max_flow_per_lane_veh_per_h": 1340.0,
+    "mean_speed_kmh": 94.57,
+    "level_of_service": "B",
+    "ramp_wait": {
+      "n_vehicles": 410,
+      "mean_wait_s": 16.05,
+      "max_wait_s": 60.9
+    },
+    "travel_time": {
+      "n_completed": 1528,
+      "mean_travel_time_s": 97.48,
+      "median_travel_time_s": 102.45,
+      "p95_travel_time_s": 137.6,
+      "mean_free_flow_time_s": 86.04,
+      "mean_delay_s": 11.44,
+      "mean_speed_kmh": 97.15
+    },
+    "queue": {
+      "max_queued_vehicles": 0,
+      "max_queue_extent_m": 0.0,
+      "slow_vehicle_seconds": 0.0,
+      "max_entry_queue": 1,
+      "max_ramp_queue": 21
+    },
+    "shockwave": {
+      "detected": false,
+      "wave_speed_kmh": null,
+      "r_squared": null,
+      "n_points": 0
+    },
+    "lane_changes": 3375,
+    "detector_x_m": 2000,
+    "fundamental_diagram_fit": null,
+    "segment_stats": [
+      {
+        "t_mid": 30.0,
+        "flow_veh_per_h": 540.0,
+        "flow_per_lane": 180.0,
+        "density_veh_per_km_per_lane": 2.261,
+        "speed_kmh": 79.615
+      },
+      {
+        "t_mid": 90.0,
+        "flow_veh_per_h": 2460.0,
+        "flow_per_lane": 820.0,
+        "density_veh_per_km_per_lane": 8.247,
+        "speed_kmh": 99.431
+      },
+      {
+        "t_mid": 150.0,
+        "flow_veh_per_h": 3060.0,
+        "flow_per_lane": 1020.0,
+        "density_veh_per_km_per_lane": 10.333,
+        "speed_kmh": 98.71
+      },
+      {
+        "t_mid": 210.0,
+        "flow_veh_per_h": 3780.0,
+        "flow_per_lane": 1260.0,
+        "density_veh_per_km_per_lane": 12.667,
+        "speed_kmh": 99.474
+      },
+      {
+        "t_mid": 270.0,
+        "flow_veh_per_h": 3420.0,
+        "flow_per_lane": 1140.0,
+        "density_veh_per_km_per_lane": 11.655,
+        "speed_kmh": 97.811
+      },
+      {
+        "t_mid": 330.0,
+        "flow_veh_per_h": 2880.0,
+        "flow_per_lane": 960.0,
+        "density_veh_per_km_per_lane": 10.378,
+        "speed_kmh": 92.505
+      },
+      {
+        "t_mid": 390.0,
+        "flow_veh_per_h": 2640.0,
+        "flow_per_lane": 880.0,
+        "density_veh_per_km_per_lane": 9.244,
+        "speed_kmh": 95.192
+      },
+      {
+        "t_mid": 450.0,
+        "flow_veh_per_h": 3000.0,
+        "flow_per_lane": 1000.0,
+        "density_veh_per_km_per_lane": 10.111,
+        "speed_kmh": 98.901
+      },
+      {
+        "t_mid": 510.0,
+        "flow_veh_per_h": 3120.0,
+        "flow_per_lane": 1040.0,
+        "density_veh_per_km_per_lane": 10.467,
+        "speed_kmh": 99.363
+      },
+      {
+        "t_mid": 570.0,
+        "flow_veh_per_h": 3600.0,
+        "flow_per_lane": 1200.0,
+        "density_veh_per_km_per_lane": 12.978,
+        "speed_kmh": 92.466
+      },
+      {
+        "t_mid": 630.0,
+        "flow_veh_per_h": 2760.0,
+        "flow_per_lane": 920.0,
+        "density_veh_per_km_per_lane": 9.133,
+        "speed_kmh": 100.73
+      },
+      {
+        "t_mid": 690.0,
+        "flow_veh_per_h": 3180.0,
+        "flow_per_lane": 1060.0,
+        "density_veh_per_km_per_lane": 11.356,
+        "speed_kmh": 93.346
+      },
+      {
+        "t_mid": 750.0,
+        "flow_veh_per_h": 3660.0,
+        "flow_per_lane": 1220.0,
+        "density_veh_per_km_per_lane": 12.911,
+        "speed_kmh": 94.492
+      },
+      {
+        "t_mid": 810.0,
+        "flow_veh_per_h": 3120.0,
+        "flow_per_lane": 1040.0,
+        "density_veh_per_km_per_lane": 10.622,
+        "speed_kmh": 97.908
+      },
+      {
+        "t_mid": 870.0,
+        "flow_veh_per_h": 3780.0,
+        "flow_per_lane": 1260.0,
+        "density_veh_per_km_per_lane": 13.111,
+        "speed_kmh": 96.102
+      },
+      {
+        "t_mid": 930.0,
+        "flow_veh_per_h": 3540.0,
+        "flow_per_lane": 1180.0,
+        "density_veh_per_km_per_lane": 13.156,
+        "speed_kmh": 89.696
+      },
+      {
+        "t_mid": 990.0,
+        "flow_veh_per_h": 3480.0,
+        "flow_per_lane": 1160.0,
+        "density_veh_per_km_per_lane": 12.933,
+        "speed_kmh": 89.691
+      },
+      {
+        "t_mid": 1050.0,
+        "flow_veh_per_h": 3900.0,
+        "flow_per_lane": 1300.0,
+        "density_veh_per_km_per_lane": 12.976,
+        "speed_kmh": 100.183
+      },
+      {
+        "t_mid": 1110.0,
+        "flow_veh_per_h": 4020.0,
+        "flow_per_lane": 1340.0,
+        "density_veh_per_km_per_lane": 14.222,
+        "speed_kmh": 94.219
+      },
+      {
+        "t_mid": 1170.0,
+        "flow_veh_per_h": 2520.0,
+        "flow_per_lane": 840.0,
+        "density_veh_per_km_per_lane": 9.506,
+        "speed_kmh": 88.364
+      },
+      {
+        "t_mid": 1230.0,
+        "flow_veh_per_h": 3180.0,
+        "flow_per_lane": 1060.0,
+        "density_veh_per_km_per_lane": 11.407,
+        "speed_kmh": 92.922
+      },
+      {
+        "t_mid": 1290.0,
+        "flow_veh_per_h": 3360.0,
+        "flow_per_lane": 1120.0,
+        "density_veh_per_km_per_lane": 11.476,
+        "speed_kmh": 97.593
+      },
+      {
+        "t_mid": 1350.0,
+        "flow_veh_per_h": 3300.0,
+        "flow_per_lane": 1100.0,
+        "density_veh_per_km_per_lane": 11.333,
+        "speed_kmh": 97.059
+      },
+      {
+        "t_mid": 1410.0,
+        "flow_veh_per_h": 3420.0,
+        "flow_per_lane": 1140.0,
+        "density_veh_per_km_per_lane": 11.556,
+        "speed_kmh": 98.654
+      },
+      {
+        "t_mid": 1470.0,
+        "flow_veh_per_h": 2820.0,
+        "flow_per_lane": 940.0,
+        "density_veh_per_km_per_lane": 9.738,
+        "speed_kmh": 96.528
+      },
+      {
+        "t_mid": 1530.0,
+        "flow_veh_per_h": 2820.0,
+        "flow_per_lane": 940.0,
+        "density_veh_per_km_per_lane": 10.222,
+        "speed_kmh": 91.957
+      },
+      {
+        "t_mid": 1590.0,
+        "flow_veh_per_h": 3300.0,
+        "flow_per_lane": 1100.0,
+        "density_veh_per_km_per_lane": 12.741,
+        "speed_kmh": 86.337
+      },
+      {
+        "t_mid": 1650.0,
+        "flow_veh_per_h": 2880.0,
+        "flow_per_lane": 960.0,
+        "density_veh_per_km_per_lane": 9.852,
+        "speed_kmh": 97.444
+      },
+      {
+        "t_mid": 1710.0,
+        "flow_veh_per_h": 3420.0,
+        "flow_per_lane": 1140.0,
+        "density_veh_per_km_per_lane": 12.548,
+        "speed_kmh": 90.854
+      },
+      {
+        "t_mid": 1770.0,
+        "flow_veh_per_h": 2220.0,
+        "flow_per_lane": 740.0,
+        "density_veh_per_km_per_lane": 8.272,
+        "speed_kmh": 89.463
+      }
+    ]
+  },
+  "b": {
+    "scenario": "ramp_metering_on",
+    "duration_s": 1800,
+    "seed": 21,
+    "runtime_s": 5.46,
+    "vehicles_entered": 1482,
+    "vehicles_completed": 1414,
+    "throughput_veh_per_h": 2828.0,
+    "mean_density_veh_per_km_per_lane": 9.88,
+    "max_flow_per_lane_veh_per_h": 1240.0,
+    "mean_speed_kmh": 97.05,
+    "level_of_service": "B",
+    "ramp_wait": {
+      "n_vehicles": 300,
+      "mean_wait_s": 346.24,
+      "max_wait_s": 649.2
+    },
+    "travel_time": {
+      "n_completed": 1414,
+      "mean_travel_time_s": 99.35,
+      "median_travel_time_s": 102.6,
+      "p95_travel_time_s": 138.1,
+      "mean_free_flow_time_s": 89.08,
+      "mean_delay_s": 10.26,
+      "mean_speed_kmh": 99.15
+    },
+    "queue": {
+      "max_queued_vehicles": 0,
+      "max_queue_extent_m": 0.0,
+      "slow_vehicle_seconds": 0.0,
+      "max_entry_queue": 1,
+      "max_ramp_queue": 125
+    },
+    "shockwave": {
+      "detected": false,
+      "wave_speed_kmh": null,
+      "r_squared": null,
+      "n_points": 0
+    },
+    "lane_changes": 3232,
+    "detector_x_m": 2000,
+    "fundamental_diagram_fit": null,
+    "segment_stats": [
+      {
+        "t_mid": 30.0,
+        "flow_veh_per_h": 480.0,
+        "flow_per_lane": 160.0,
+        "density_veh_per_km_per_lane": 1.884,
+        "speed_kmh": 84.923
+      },
+      {
+        "t_mid": 90.0,
+        "flow_veh_per_h": 2280.0,
+        "flow_per_lane": 760.0,
+        "density_veh_per_km_per_lane": 7.531,
+        "speed_kmh": 100.918
+      },
+      {
+        "t_mid": 150.0,
+        "flow_veh_per_h": 2940.0,
+        "flow_per_lane": 980.0,
+        "density_veh_per_km_per_lane": 10.0,
+        "speed_kmh": 98.0
+      },
+      {
+        "t_mid": 210.0,
+        "flow_veh_per_h": 3120.0,
+        "flow_per_lane": 1040.0,
+        "density_veh_per_km_per_lane": 10.346,
+        "speed_kmh": 100.525
+      },
+      {
+        "t_mid": 270.0,
+        "flow_veh_per_h": 2940.0,
+        "flow_per_lane": 980.0,
+        "density_veh_per_km_per_lane": 9.264,
+        "speed_kmh": 105.782
+      },
+      {
+        "t_mid": 330.0,
+        "flow_veh_per_h": 2520.0,
+        "flow_per_lane": 840.0,
+        "density_veh_per_km_per_lane": 8.356,
+        "speed_kmh": 100.532
+      },
+      {
+        "t_mid": 390.0,
+        "flow_veh_per_h": 2820.0,
+        "flow_per_lane": 940.0,
+        "density_veh_per_km_per_lane": 9.444,
+        "speed_kmh": 99.529
+      },
+      {
+        "t_mid": 450.0,
+        "flow_veh_per_h": 2580.0,
+        "flow_per_lane": 860.0,
+        "density_veh_per_km_per_lane": 8.622,
+        "speed_kmh": 99.742
+      },
+      {
+        "t_mid": 510.0,
+        "flow_veh_per_h": 2460.0,
+        "flow_per_lane": 820.0,
+        "density_veh_per_km_per_lane": 8.178,
+        "speed_kmh": 100.272
+      },
+      {
+        "t_mid": 570.0,
+        "flow_veh_per_h": 2940.0,
+        "flow_per_lane": 980.0,
+        "density_veh_per_km_per_lane": 10.556,
+        "speed_kmh": 92.842
+      },
+      {
+        "t_mid": 630.0,
+        "flow_veh_per_h": 2880.0,
+        "flow_per_lane": 960.0,
+        "density_veh_per_km_per_lane": 9.133,
+        "speed_kmh": 105.109
+      },
+      {
+        "t_mid": 690.0,
+        "flow_veh_per_h": 2700.0,
+        "flow_per_lane": 900.0,
+        "density_veh_per_km_per_lane": 9.711,
+        "speed_kmh": 92.677
+      },
+      {
+        "t_mid": 750.0,
+        "flow_veh_per_h": 3120.0,
+        "flow_per_lane": 1040.0,
+        "density_veh_per_km_per_lane": 10.133,
+        "speed_kmh": 102.632
+      },
+      {
+        "t_mid": 810.0,
+        "flow_veh_per_h": 3060.0,
+        "flow_per_lane": 1020.0,
+        "density_veh_per_km_per_lane": 10.356,
+        "speed_kmh": 98.498
+      },
+      {
+        "t_mid": 870.0,
+        "flow_veh_per_h": 3480.0,
+        "flow_per_lane": 1160.0,
+        "density_veh_per_km_per_lane": 11.867,
+        "speed_kmh": 97.753
+      },
+      {
+        "t_mid": 930.0,
+        "flow_veh_per_h": 3720.0,
+        "flow_per_lane": 1240.0,
+        "density_veh_per_km_per_lane": 13.4,
+        "speed_kmh": 92.537
+      },
+      {
+        "t_mid": 990.0,
+        "flow_veh_per_h": 3000.0,
+        "flow_per_lane": 1000.0,
+        "density_veh_per_km_per_lane": 10.978,
+        "speed_kmh": 91.093
+      },
+      {
+        "t_mid": 1050.0,
+        "flow_veh_per_h": 3180.0,
+        "flow_per_lane": 1060.0,
+        "density_veh_per_km_per_lane": 10.024,
+        "speed_kmh": 105.748
+      },
+      {
+        "t_mid": 1110.0,
+        "flow_veh_per_h": 3120.0,
+        "flow_per_lane": 1040.0,
+        "density_veh_per_km_per_lane": 10.79,
+        "speed_kmh": 96.384
+      },
+      {
+        "t_mid": 1170.0,
+        "flow_veh_per_h": 2520.0,
+        "flow_per_lane": 840.0,
+        "density_veh_per_km_per_lane": 9.309,
+        "speed_kmh": 90.239
+      },
+      {
+        "t_mid": 1230.0,
+        "flow_veh_per_h": 3420.0,
+        "flow_per_lane": 1140.0,
+        "density_veh_per_km_per_lane": 12.395,
+        "speed_kmh": 91.972
+      },
+      {
+        "t_mid": 1290.0,
+        "flow_veh_per_h": 3180.0,
+        "flow_per_lane": 1060.0,
+        "density_veh_per_km_per_lane": 10.667,
+        "speed_kmh": 99.375
+      },
+      {
+        "t_mid": 1350.0,
+        "flow_veh_per_h": 3180.0,
+        "flow_per_lane": 1060.0,
+        "density_veh_per_km_per_lane": 10.691,
+        "speed_kmh": 99.145
+      },
+      {
+        "t_mid": 1410.0,
+        "flow_veh_per_h": 3300.0,
+        "flow_per_lane": 1100.0,
+        "density_veh_per_km_per_lane": 11.062,
+        "speed_kmh": 99.442
+      },
+      {
+        "t_mid": 1470.0,
+        "flow_veh_per_h": 2580.0,
+        "flow_per_lane": 860.0,
+        "density_veh_per_km_per_lane": 9.0,
+        "speed_kmh": 95.556
+      },
+      {
+        "t_mid": 1530.0,
+        "flow_veh_per_h": 3240.0,
+        "flow_per_lane": 1080.0,
+        "density_veh_per_km_per_lane": 11.432,
+        "speed_kmh": 94.471
+      },
+      {
+        "t_mid": 1590.0,
+        "flow_veh_per_h": 3300.0,
+        "flow_per_lane": 1100.0,
+        "density_veh_per_km_per_lane": 12.716,
+        "speed_kmh": 86.505
+      },
+      {
+        "t_mid": 1650.0,
+        "flow_veh_per_h": 2520.0,
+        "flow_per_lane": 840.0,
+        "density_veh_per_km_per_lane": 8.37,
+        "speed_kmh": 100.354
+      },
+      {
+        "t_mid": 1710.0,
+        "flow_veh_per_h": 3240.0,
+        "flow_per_lane": 1080.0,
+        "density_veh_per_km_per_lane": 11.214,
+        "speed_kmh": 96.306
+      },
+      {
+        "t_mid": 1770.0,
+        "flow_veh_per_h": 2460.0,
+        "flow_per_lane": 820.0,
+        "density_veh_per_km_per_lane": 8.864,
+        "speed_kmh": 92.507
+      }
+    ]
+  }
+}
